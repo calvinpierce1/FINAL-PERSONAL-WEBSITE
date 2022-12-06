@@ -1,6 +1,6 @@
 .hero-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/timp.jfif");
-    height: 25vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/channels4_banner.jpg");
+    height: 15vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -16,7 +16,8 @@
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: medium;
-    font-weight: lighter;
+
+    -webkit-text-stroke: black, 2px;
 }
 
 nav>div {
@@ -50,4 +51,45 @@ div.analytics>img {
     margin-top: 15%;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.thumbnailwork {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 10%;
+}
+
+div.thumbnailwork>img {
+    display: inline;
+    width: 30%;
+    border: solid, black, 3px;
+}
+
+.analytics {
+    margin-top: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+
+.contactbox {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 10%;
+
+}
+
+.contactbox>h1,.contactbox>p {
+    display: inline;
+    font-weight: bold;
+
+}
+.contactbox>p {
+    font-size: x-large;
+}
+.contactbox>img {
+    width: 5%;
+    margin-top: ;
 }
